@@ -24,14 +24,14 @@ When we perform a t-test on our suspension coil data for all manufacturing lots 
 ![t-test suspension](/t_test.PNG)
 
 When we perform a t-test on each individual manufacturing lot, we get varying results.  Lot 1 had a p-value of 1 which means this particular manufacturing lot is not statistically different from the population mean of 1500 PSI.  This data is supported by our previous analysis where we found that Lot 1 had the lowest variance in PSI of all the manufacturing lots.
-![Lot 1 T-test](/lot1_ttest.PNG)
+![Lot 1 T-test](/lot1_ttest.png)
 
 Looking at Lot 2, we see that the p-value was higher than that of Lot 1 but still above our 0.05 significance level so we claim that the PSI for Lot 2 is not statistically different from the population mean.
 
-![Lot 2 T-test](/lot2_ttest.PNG)
+![Lot 2 T-test](/lot2_ttest.png)
 
 Examining Lot 3 reveals a p-value of 0.04 which is less than our 0.05 significance level which indicates that the PSI of the suspension coils manufactured on Lot 3 are statistically different from the population mean of 1500 PSI.  This is also supported by our earlier analysis which showed that Lot 3 had a much higher variance than Lot 1 and Lot 2.
-![Lot 3 T-test](/lot3_ttest.PNG)
+![Lot 3 T-test](/lot3_ttest.png)
 
 ## Study Design: MechaCar vs Competition
 When considering the potential that the MechaCar prototype could have on the consumer market, we would want to consider how the MechaCar vehicles perform against vehicles of other manufacturers.  One thing that we believe is important to car buyers is having a vehicle that gets good miles per gallon (mpg).  Nobody likes stopping at the gas pump more than they have to and and vehicles with higher mpg are better more environmentally friendly.  To test this, we would like to compare vehicle sales of vehicles with similar class, and engine size to the MechaCar vehicle.  For this test, our metrics would be the city mpg of the of the mpg ratings of the other manufacturer's vehicles.  In this case, our null hypothesis would be that the city mpg rating has no affect on vehicle sales.  The test we would like to use in this case is a linear regression model and the data we would need to complete this test is the city mpg rating of competing vehicle manufacturers as well as the total sales figures for those vehicle models.
