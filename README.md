@@ -1,6 +1,6 @@
 # MechaCar_Statistical_Analysis
 
-For this analysis, we utilized RStudio to perform retrospective analysis of historical data, analytical verification and validation of current automotive specifications and study design of future product testing for a new protype vehicle called MechaCar.  In this analysis, we chose to focus on the following areas:
+For this analysis, we utilized RStudio to perform retrospective analysis of historical data, analytical verification and validation of current automotive specifications and study design of future product testing for a new prototype vehicle called MechaCar.  In this analysis, we chose to focus on the following areas:
 - Identify which variables in the dataset predict the the mpg of MechaCar prototypes
 - Collect summary statistics on the pounds per square inch (PSI) of the suspension coils from the manufacturing lots.
 - Determine if the manufacturing lots are statistically different from the mean population.
